@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_text_size">12sp</dimen>
+
+    <dimen name="default_gap">8dp</dimen>
+    <dimen name="default_gap_2x">16dp</dimen>
+
+    <dimen name="default_profile_size">80dp</dimen>
+</resources>

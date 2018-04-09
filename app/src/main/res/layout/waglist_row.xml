@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gravatar"
+        android:layout_width="@dimen/default_profile_size"
+        android:layout_height="@dimen/default_profile_size"
+        android:layout_alignParentLeft="true"
+        android:layout_marginHorizontal="@dimen/default_gap_2x"
+        android:layout_marginVertical="@dimen/default_gap" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/default_gap"
+        android:layout_toRightOf="@id/gravatar"
+        android:textSize="@dimen/default_text_size" />
+
+    <TextView
+        android:id="@+id/bronze_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_toRightOf="@id/gravatar"
+        android:text="bronze: "
+        android:textSize="@dimen/default_text_size" />
+
+    <TextView
+        android:id="@+id/bronze_dynamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_toRightOf="@id/bronze_static"
+        android:textSize="@dimen/default_text_size" />
+
+    <TextView
+        android:id="@+id/silver_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bronze_static"
+        android:layout_toRightOf="@id/gravatar"
+        android:text="silver: "
+        android:textSize="@dimen/default_text_size" />
+
+    <TextView
+        android:id="@+id/silver_dynamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bronze_dynamic"
+        android:layout_toRightOf="@id/silver_static"
+        android:textSize="@dimen/default_text_size" />
+
+    <TextView
+        android:id="@+id/gold_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/silver_static"
+        android:layout_toRightOf="@id/gravatar"
+        android:text="gold: "
+        android:textSize="@dimen/default_text_size" />
+
+    <TextView
+        android:id="@+id/gold_dynamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/silver_dynamic"
+        android:layout_toRightOf="@id/gold_static"
+        android:textSize="@dimen/default_text_size" />
+
+
+</RelativeLayout>
